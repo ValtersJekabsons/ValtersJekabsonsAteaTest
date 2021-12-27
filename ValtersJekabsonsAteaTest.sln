@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValtersJekabsonsAteaTest", "ValtersJekabsonsAteaTest\ValtersJekabsonsAteaTest.csproj", "{8B001835-28DC-4FE3-9205-0FA0297398DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{74E4F54F-A440-4BFE-BA23-B337C3CAB256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E72B8B10-6A0D-4C97-ABA5-199408486F88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing", "OrderProcessing\OrderProcessing.csproj", "{C3C2F12F-8272-4B21-B83B-A30F66A36E95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{3FE24654-5DBD-44DA-BA20-054985BFEA9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1885FC31-24C2-48A7-9734-985AB3B6F532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateOrderTest", "PayPalCreateOrderTest\CreateOrderTest.csproj", "{52673601-857E-4049-B012-48998BDDF55C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B001835-28DC-4FE3-9205-0FA0297398DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B001835-28DC-4FE3-9205-0FA0297398DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B001835-28DC-4FE3-9205-0FA0297398DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B001835-28DC-4FE3-9205-0FA0297398DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C2F12F-8272-4B21-B83B-A30F66A36E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C2F12F-8272-4B21-B83B-A30F66A36E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C2F12F-8272-4B21-B83B-A30F66A36E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C2F12F-8272-4B21-B83B-A30F66A36E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE24654-5DBD-44DA-BA20-054985BFEA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE24654-5DBD-44DA-BA20-054985BFEA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE24654-5DBD-44DA-BA20-054985BFEA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE24654-5DBD-44DA-BA20-054985BFEA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52673601-857E-4049-B012-48998BDDF55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52673601-857E-4049-B012-48998BDDF55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52673601-857E-4049-B012-48998BDDF55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52673601-857E-4049-B012-48998BDDF55C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E72B8B10-6A0D-4C97-ABA5-199408486F88} = {74E4F54F-A440-4BFE-BA23-B337C3CAB256}
+		{C3C2F12F-8272-4B21-B83B-A30F66A36E95} = {E72B8B10-6A0D-4C97-ABA5-199408486F88}
+		{3FE24654-5DBD-44DA-BA20-054985BFEA9F} = {74E4F54F-A440-4BFE-BA23-B337C3CAB256}
+		{52673601-857E-4049-B012-48998BDDF55C} = {1885FC31-24C2-48A7-9734-985AB3B6F532}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21AC483E-8591-4E9D-A25C-6BB9CF69F44C}
+	EndGlobalSection
+EndGlobal
